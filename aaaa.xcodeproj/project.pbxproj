@@ -18,6 +18,11 @@
 		C886F912157E37360045CC57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C886F8F9157E37350045CC57 /* Foundation.framework */; };
 		C886F91A157E37360045CC57 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C886F918157E37360045CC57 /* InfoPlist.strings */; };
 		C886F91D157E37360045CC57 /* aaaaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C886F91C157E37360045CC57 /* aaaaTests.m */; };
+		C886F927157E37570045CC57 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C886F926157E37570045CC57 /* MainStoryboard.storyboard */; };
+		C886F92A157E38030045CC57 /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C886F929157E38030045CC57 /* StartViewController.m */; };
+		C886F92C157E9F2B0045CC57 /* iPad_Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C886F92B157E9F2B0045CC57 /* iPad_Storyboard.storyboard */; };
+		C886F930157EA2D00045CC57 /* SliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C886F92E157EA2D00045CC57 /* SliderViewController.m */; };
+		C886F931157EA2D00045CC57 /* SliderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C886F92F157EA2D00045CC57 /* SliderViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,18 +40,25 @@
 		C886F8F7157E37350045CC57 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C886F8F9157E37350045CC57 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C886F8FB157E37350045CC57 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C886F8FF157E37350045CC57 /* aaaa-Info.plist */ = {isa = PBXFileReference; path = "aaaa-Info.plist"; sourceTree = "<group>"; };
+		C886F8FF157E37350045CC57 /* aaaa-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "aaaa-Info.plist"; sourceTree = "<group>"; };
 		C886F901157E37350045CC57 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C886F903157E37350045CC57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C886F905157E37350045CC57 /* aaaa-Prefix.pch */ = {isa = PBXFileReference; path = "aaaa-Prefix.pch"; sourceTree = "<group>"; };
-		C886F906157E37350045CC57 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		C886F905157E37350045CC57 /* aaaa-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "aaaa-Prefix.pch"; sourceTree = "<group>"; };
+		C886F906157E37350045CC57 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C886F907157E37350045CC57 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C886F90E157E37360045CC57 /* aaaaTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aaaaTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C886F90F157E37360045CC57 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		C886F917157E37360045CC57 /* aaaaTests-Info.plist */ = {isa = PBXFileReference; path = "aaaaTests-Info.plist"; sourceTree = "<group>"; };
+		C886F917157E37360045CC57 /* aaaaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "aaaaTests-Info.plist"; sourceTree = "<group>"; };
 		C886F919157E37360045CC57 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C886F91B157E37360045CC57 /* aaaaTests.h */ = {isa = PBXFileReference; path = aaaaTests.h; sourceTree = "<group>"; };
+		C886F91B157E37360045CC57 /* aaaaTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = aaaaTests.h; sourceTree = "<group>"; };
 		C886F91C157E37360045CC57 /* aaaaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = aaaaTests.m; sourceTree = "<group>"; };
+		C886F926157E37570045CC57 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		C886F928157E38030045CC57 /* StartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartViewController.h; sourceTree = "<group>"; };
+		C886F929157E38030045CC57 /* StartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartViewController.m; sourceTree = "<group>"; };
+		C886F92B157E9F2B0045CC57 /* iPad_Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = iPad_Storyboard.storyboard; path = ../iPad_Storyboard.storyboard; sourceTree = "<group>"; };
+		C886F92D157EA2D00045CC57 /* SliderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliderViewController.h; sourceTree = "<group>"; };
+		C886F92E157EA2D00045CC57 /* SliderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SliderViewController.m; sourceTree = "<group>"; };
+		C886F92F157EA2D00045CC57 /* SliderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SliderViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +120,13 @@
 			children = (
 				C886F906157E37350045CC57 /* AppDelegate.h */,
 				C886F907157E37350045CC57 /* AppDelegate.m */,
+				C886F92B157E9F2B0045CC57 /* iPad_Storyboard.storyboard */,
+				C886F926157E37570045CC57 /* MainStoryboard.storyboard */,
+				C886F92D157EA2D00045CC57 /* SliderViewController.h */,
+				C886F92E157EA2D00045CC57 /* SliderViewController.m */,
+				C886F92F157EA2D00045CC57 /* SliderViewController.xib */,
+				C886F928157E38030045CC57 /* StartViewController.h */,
+				C886F929157E38030045CC57 /* StartViewController.m */,
 				C886F8FE157E37350045CC57 /* Supporting Files */,
 			);
 			path = aaaa;
@@ -214,6 +233,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C886F902157E37350045CC57 /* InfoPlist.strings in Resources */,
+				C886F927157E37570045CC57 /* MainStoryboard.storyboard in Resources */,
+				C886F92C157E9F2B0045CC57 /* iPad_Storyboard.storyboard in Resources */,
+				C886F931157EA2D00045CC57 /* SliderViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +272,8 @@
 			files = (
 				C886F904157E37350045CC57 /* main.m in Sources */,
 				C886F908157E37350045CC57 /* AppDelegate.m in Sources */,
+				C886F92A157E38030045CC57 /* StartViewController.m in Sources */,
+				C886F930157EA2D00045CC57 /* SliderViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
